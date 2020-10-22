@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+KNSemiModal.h"
-#import <QuartzCore/QuartzCore.h>
+@import QuartzCore;
 #import <objc/runtime.h>
 
 const struct KNSemiModalOptionKeys KNSemiModalOptionKeys = {
